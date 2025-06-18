@@ -1,0 +1,1 @@
+# Alexis-Liston-18.06.2025-11-29-DFG-Geraetegruppenschluessel
