@@ -1,1 +1,3 @@
-# DFG-Geraetegruppenschluessel
+# DFG-Geraetegruppenschluessel / DFG Equipment Group Classification Ontology Extension
+
+ The DFG Gerätegruppenschlüssel Ontology / DFG Equipment Group Classification (DFGGGS) offers an optional ontology extension for classification of instruments. It encodes the [Deutsche Forschungsgemeinschaft Gerätegruppenschlüssel](https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/wgi/geraetegruppenschluessel) into an OWL RDF-based ontology, where each group at each level of the hierarchy (H - Hundertergruppen, Z - Zehnergruppen, E - Einergruppen) is converted into an owl:Class with subclass statements according to the hierarchy. Labels are provided in German (no English translation at time of making).
