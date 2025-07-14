@@ -25,8 +25,8 @@ Sample of the hierarchy in Protege, showing all ten H-level classes and two Z-le
 
 # How to use the extension  
 
-How-to use protege to narrow down extension to your use case   
-How to import ontology extension into VIVO  
+[How-to customize the extension using Protégé](/protege-for-customization/how-to-customize-using-protege.md)  
+[How to import ontology extension into VIVO]() 
 
 # Resources  
 
