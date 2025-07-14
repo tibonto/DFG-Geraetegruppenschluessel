@@ -3961,6 +3961,7 @@
     <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E6430_003</rdfs:comment>
   </owl:Class>
   <rdf:Description rdf:about="https://w3id.org/dfgggs/2025">
+    <rdfs:label xml:lang="en-EN">DFG GGS</rdfs:label>  
     <dc:creator>Deutsche Forschungsgemeinschaft (DFG)</dc:creator>
     <dc:creator>TIB - Leibniz-Informationszentrum Technik und Naturwissenschaften</dc:creator>
     <dc:creator>Alexis Liston</dc:creator>
@@ -3976,7 +3977,7 @@
     <owl:versionIRI rdf:resource="https://w3id.org/dfgggs/2025"/>
     <owl:priorVersion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">none</owl:priorVersion>
     <dc:title xml:lang="de">DFG Gerätegruppenschlüssel Ontology</dc:title>
-    <dc:description>DFG Gerätegruppenschlüssel Ontology / DFG Equipment Group Classification (DFGGGS) encodes the DFG Gerätegruppenschlüssel into an ontology, where each group at each level of the hierarchy (H - Hundertergruppen, Z - Zehnergruppen, E - Einzelgruppen) is enconded into an owl:Class with subclass statements following the hierarchy. Labels are provided in German (no English translation at time of making).</dc:description>
+    <dc:description>DFG Gerätegruppenschlüssel Ontology / DFG Equipment Group Classification (DFG GGS) encodes the DFG Gerätegruppenschlüssel into an ontology, where each group at each level of the hierarchy (H - Hundertergruppen, Z - Zehnergruppen, E - Einzelgruppen) is enconded into an owl:Class with subclass statements following the hierarchy. Labels are provided in German (no English translation at time of making).</dc:description>
   </rdf:Description>
   <owl:Class rdf:about="https://w3id.org/dfgggs/2025#Z9400">
     <rdfs:label xml:lang="de">Allgemeine Werkstatt- und Laborausrüstung</rdfs:label>

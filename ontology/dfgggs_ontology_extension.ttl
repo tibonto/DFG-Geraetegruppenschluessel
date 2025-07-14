@@ -22129,6 +22129,7 @@ dfgggs:Z7700 a owl:Class ;
     rdfs:subClassOf dfgggs:H7000 .
 
 <https://w3id.org/dfgggs/2025> a owl:Ontology ;
+    rdfs:label "DFG GGS"@en-EN ;
     dc:creator "Alexis Liston",
         "Deutsche Forschungsgemeinschaft (DFG)",
         "TIB - Leibniz-Informationszentrum Technik und Naturwissenschaften" ;

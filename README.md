@@ -19,13 +19,13 @@ The DFG Gerätegruppenschlüssel Ontology (DFG Equipment Group Classification, D
 [DFG GGS Ontology OWL file](ontology/dfgggs_ontology_extension.owl)  
 [DFG GGS Ontology TTL file](ontology/dfgggs_ontology_extension.ttl)
 
-<img src="media/dfgggs protege sample.png" alt="Protege Sample of Ontology" width="500"/>  
+<img src="media/dfgggs-protege-sample.png" alt="Protege Sample of Ontology" width="550"/>  
 
 Sample of the hierarchy in Protege, showing all ten H-level classes and two Z-level groups. 
 
 # How to use the extension  
 
-[How-to customize the extension using Protégé](/protege-for-customization/how-to-customize-using-protege.md)  
+[How to customize the extension using Protégé](/usage-guides/how-to-customize-using-protege.md)  
 [How to import ontology extension into VIVO]() 
 
 # Resources  
