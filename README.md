@@ -1,6 +1,6 @@
 # DFG-Geraetegruppenschluessel / DFG Equipment Group Classification Ontology Extension
 
- The DFG Gerätegruppenschlüssel Ontology / DFG Equipment Group Classification (DFG GGS) offers an optional ontology extension for classification of instruments. It encodes the [Deutsche Forschungsgemeinschaft Gerätegruppenschlüssel](https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/wgi/geraetegruppenschluessel) into an OWL RDF-based ontology, where each group at each level of the hierarchy (H - Hundertergruppen, Z - Zehnergruppen, E - Einergruppen) is converted into an owl:Class with subclass statements according to the hierarchy. Labels are provided in German (no English translation at time of making). This exension may be useful to VIVO users looking for a way to classify instruments.
+The DFG Gerätegruppenschlüssel Ontology (DFG Equipment Group Classification, DFG GGS) provides an optional ontology extension for classifying scientific instruments. It is a formal RDF/OWL representation of a pre-existing classification hierarchy originally published in XLSX format by the [Deutsche Forschungsgemeinschaft](https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/wgi/geraetegruppenschluessel). Each classification level - H (Hundertergruppen), Z (Zehnergruppen), and E (Einergruppen) - is represented as owl:Class elements, with subclass statements according the hierarchy. Labels are provided in German. This extension may be of interest to VIVO users seeking a structured way to classify instrument types.
 
 # Ontology Extension
 
@@ -23,14 +23,16 @@
 
 Sample of the hierarchy in Protege, showing all ten H-level classes and two Z-level groups. 
 
-
-# Resources  
+# How to use the extension  
 
 How-to use protege to narrow down extension to your use case   
 How to import ontology extension into VIVO  
+
+# Resources  
+
 [Deutsche Forschungsgemeinschaft Gerätegruppenschlüssel](https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/wgi/geraetegruppenschluessel)  
 [Geraetegruppenschluessel spreadsheet from DFG](/geraetegruppenschluessel.xlsx)  
 
-# Creating the Ontology Extension  
+# Encoding the Ontology Extension  
   
  CSV file, Scripts, workflow, considerations to create OWL/TTL file from spreadsheet 
