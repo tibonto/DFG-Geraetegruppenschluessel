@@ -16,8 +16,8 @@
 
  - prefix: dfgggs  
 
-[ontology OWL file](./dfgggs_ontology_extension.owl)  
-[ontology TTL file](./dfgggs_ontology_extension.ttl)
+[ontology OWL file](ontology/dfgggs_ontology_extension.owl.owl)  
+[ontology TTL file](ontology/dfgggs_ontology_extension.ttl)
 
 
  
