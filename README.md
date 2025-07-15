@@ -6,7 +6,7 @@ The DFG Gerätegruppenschlüssel Ontology (DFG Equipment Group Classification, D
 
 **Main features**
 
-- 4517 classes in total, no properties  
+- 4517 classes in total, no object properties or data properties
 - 3-tier hierarchy  
   - H (highest level) - 10 Classes  
   - Z (middle level) - 94 Classes  
