@@ -1,0 +1,44 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix terms: <http://purl.org/dc/terms/> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix obo: <http://purl.obolibrary.org/obo/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+dc:creator rdf:type owl:AnnotationProperty .
+
+dc:description rdf:type owl:AnnotationProperty .
+
+dc:title rdf:type owl:AnnotationProperty .
+
+terms:license rdf:type owl:AnnotationProperty .
+
+skos:altLabel rdf:type owl:AnnotationProperty .
+skos:prefLabel rdf:type owl:AnnotationProperty .
+skos:closeMatch rdf:type owl:ObjectProperty .
+<https://schema.org/identifier> rdf:type owl:AnnotationProperty .
+<http://purl.org/dc/terms/modified> rdf:type owl:DatatypeProperty .
+<http://www.w3.org/2004/02/skos/core#changeNote> rdf:type owl:AnnotationProperty .
+
+<https://w3id.org/dfgggs/2025> rdf:type owl:Ontology ;
+                                   dc:creator "Deutsche Forschungsgemeinschaft (DFG)",
+                                              "TIB - Leibniz-Informationszentrum Technik und Naturwissenschaften",
+                                              "Alexis Liston";
+                                   dc:description "DFG Gerätegruppenschlüssel Ontology / DFG Equipment Group Classification (DFG GGS) encodes the DFG Gerätegruppenschlüssel into an ontology, where each group at each level of the hierarchy (H - Hundertergruppen, Z - Zehnergruppen, E - Einzelgruppen) is enconded into an owl:Class with subclass statements following the hierarchy. Labels are provided in German (no English translation at time of making).";
+                                   #dc:title "DFG"@en ;
+                                   dc:title "DFG Gerätegruppenschlüssel Ontology"@de ;
+                                   rdfs:comment "DFG Gerätegruppenschlüssel Ontology is being created as an optional extension of the VIVO Core Ontology"@en ;
+                                   rdfs:comment "DFG Gerätegruppenschlüssel Ontology wird als optionale Erweiterung der VIVO Core Ontology erstellt"@de ;
+                                   terms:license "TODO:add lisence"^^xsd:string ; 
+                                   owl:versionInfo "2025"^^xsd:string ; 
+                                   owl:versionIRI <https://w3id.org/dfgggs/2025> ; 
+                                   owl:priorVersion "none"^^xsd:string ; 
+                                   terms:modified "2025-05-30T00:00:00"^^xsd:dateTime ; 
+				   rdfs:comment "DFG "@en ; 
+                   skos:changeNote """Changes:
+*..."""@en .
+
+

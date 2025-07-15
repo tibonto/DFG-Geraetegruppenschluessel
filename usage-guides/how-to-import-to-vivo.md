@@ -18,9 +18,9 @@
 **Tips**  
 
 - When importing a customized version of the extension, it might be useful to add a label to the owl:Ontology element directly in the file with something like: <rdfs:label xml:lang="en">My Mini Extension</rdfs:label>, or other metadata as seen fit. Some of this can also be done directly in VIVO after import.  
-- After import, assign classes to the appropriate class group in order to see instances rendered in those categories. For example, assign the class "Magnetrührer" to the 'equipment' class group, then "Magnetrührer" instances can be displayed in the correct category from the equipment page.   
+- After import, assign classes to the appropriate class group in order to see instances rendered in those categories. For example, assign the class "Magnetrührer" to the 'equipment' class group, then "Magnetrührer" instances can be displayed in the correct category from the equipment page, as seen here:   
   
-<img src="../media/magnetruhrer.png" alt="example of how an instance renders in the correct class by assigning class group" width="550"/>   
+<img src="../media/magnetruhrer.png" alt="example of how an instance renders in the correct class by assigning class group" width="600"/>   
 
 ---  
 

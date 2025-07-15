@@ -29,9 +29,12 @@ Sample of the hierarchy in Protege, showing all ten H-level classes and two Z-le
 
 # Resources  
 
-[Deutsche Forschungsgemeinschaft Gerätegruppenschlüssel](https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/wgi/geraetegruppenschluessel)  
+[Deutsche Forschungsgemeinschaft Gerätegruppenschlüssel webpage](https://www.dfg.de/de/foerderung/foerdermoeglichkeiten/programme/infrastruktur/wgi/geraetegruppenschluessel)  
 [Geraetegruppenschluessel spreadsheet from DFG](/geraetegruppenschluessel.xlsx)  
+[Geraetegruppenschluessel hierarchical CSV fie](csv-to-owl/dfg_instruments_hierarchy.csv)  
 
 # Encoding the Ontology Extension  
   
- CSV file, Scripts, workflow, considerations to create OWL/TTL file from spreadsheet 
+The [create_ggs_ontology.py](csv-to-owl/create_ggs_ontology.py) script generates an ontology file (in .owl and .ttl formats) from the DFG Gerätegruppenschlüssel by parsing a CSV version containing the classification hierarchy.  
+  
+Further information available in [csv-to-owl](/csv-to-owl/csv-to-owl.md)
