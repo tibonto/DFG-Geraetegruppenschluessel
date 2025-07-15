@@ -37,4 +37,4 @@ Sample of the hierarchy in Protege, showing all ten H-level classes and two Z-le
   
 The [create_ggs_ontology.py](csv-to-owl/create_ggs_ontology.py) script generates an ontology file (in .owl and .ttl formats) from the DFG Gerätegruppenschlüssel by parsing a CSV version containing the classification hierarchy.  
   
-Further information available in [csv-to-owl](/csv-to-owl/csv-to-owl.md)
+Further information available in [csv-to-owl](/csv-to-owl/README.md)
