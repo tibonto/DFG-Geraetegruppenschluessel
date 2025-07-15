@@ -12,9 +12,8 @@ The DFG Gerätegruppenschlüssel Ontology (DFG Equipment Group Classification, D
   - Z (middle level) - 94 Classes  
   - E (lowest level) - 4413 Classes  
 - Nested under Instrument class (currently http://purl.obolibrary.org/obo/ERO_0000004 which will eventually be replaced)  
-- German labels
-
- - prefix: dfgggs  
+- German labels  
+- prefix: dfgggs  
 
 [DFG GGS Ontology OWL file](ontology/dfgggs_ontology_extension.owl)  
 [DFG GGS Ontology TTL file](ontology/dfgggs_ontology_extension.ttl)
