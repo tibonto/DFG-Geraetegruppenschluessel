@@ -1,6 +1,10 @@
 # Conversion of CSV to OWL/TTL
 
-The [dfg_instruments_hierarchy](/csv-to-owl/dfg_instruments_hierarchy.csv) is a hierarchical CSV version of the [geraetegruppenschluessel](/geraetegruppenschluessel.xlsx) xlsx file, with 4 columns for class ID, Label, Level (H, Z, E), and Parent ID. In many cases, several E-level classes (sometimes more than 10) shared the same ID. To differentiate them, a further 3-digits was appended to the end. This offers flexibility/scalability in the case of adding new E-level classes to appropriate clusters. 
+The [dfg_instruments_hierarchy](/csv-to-owl/dfg_instruments_hierarchy.csv) is a hierarchical CSV version of the [geraetegruppenschluessel](/geraetegruppenschluessel.xlsx) xlsx file, with 4 columns for class ID, Label, Level (H, Z, E), and Parent ID.  
+  
+In many cases, several E-level classes (sometimes more than 10) shared the same ID. To differentiate them, a further 3-digits was appended to the end. This offers flexibility/scalability in the case of adding new E-level classes to appropriate clusters.  
+  
+Parent ID for all H-level classes is http://purl.obolibrary.org/obo/ERO_0000004, the URI for the Instrument class currently used in VIVO. This can be adjusted in the case of a changed Instrument class or another preferred parent class.
 
 **Features of the create_ggs_ontology script**    
   
